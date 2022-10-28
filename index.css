@@ -1,0 +1,125 @@
+.image{
+    width: 75%;
+    height: 20%;
+    padding-top: 5%;
+}
+body{
+    margin: 0;
+}
+.thapsi{
+    width: 75%;
+    height: 50%;
+    padding-top: 5%;
+}
+.card1{
+    padding-top: 7%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: 100%;
+}
+.card-body1{
+    width: 100%;
+   
+}
+.card2{
+    padding-top: 7%;
+    height: 100%;
+    background-color: rgb(247, 246, 215);
+    border-radius: 10px;
+}
+
+.card img{
+    width: 70%;
+    height: 50%;
+    
+}
+.three-card{
+    width: 75%;
+    height: 50%;
+    padding-top:2%
+}
+.img3{
+    padding-top: 20%;
+}
+.head1{
+    padding-top: 10%;
+}
+
+.keep-up{
+    width: 100%;
+    padding: 5%;
+    background-color:#e0dfff;
+    
+}
+.card-header1{
+    background-color:#e0dfff;
+}
+.card-body2{
+    background-color:#e0dfff;
+}.form-control3{
+    background-color: #e0dfff;
+    border-color: #e0dfff;
+}
+.center{
+    background-color: #e0dfff;
+    padding-top: 5%;
+}
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carouel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+.crafted{
+    height:100% ;
+}
+.full{
+    background-color: rgb(199, 197, 197);
+}
+.para{
+    font-size: small;
+    
+}
+.font10{
+    font-size: medium;
+}
+
+.col10 img{
+ width: 40%;
+ height: 30%;
+}
+.col20 img{
+    height: 30%;
+    width: 30%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+}
